@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>Rockey burgers</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="topnav">
+            <nav>
+                <a href="../index.html" class="navlink">Home</a> |
+                <a href="../menu/index.html" class="navlink">Food Menu</a> |
+                <a href="../locations/index.html" class="navlink">Locations</a> |
+                <a href="./index.html" class="navlink">FAQ</a> |
+                <a href="../jobs/index.html" class="navlink">Jobs</a> |
+                <a href="../about/index.html" class="navlink">About Us</a>
+            </nav>
+        </div>
+        <div class="logo">
+            <img src="../images/rockeyburgers02-logo.png">
+            <h1>Best Quality Burgers in town. Off the charts.</h1>
+        </div>
+
+
+        <div class="questions">
+            <h1>Frequently Asked Questions</h1>
+        </div>
+
+
+        <button onclick="myFunction()">Why is your Rockey Burger So Expensive?</button>
+        <div id="myDIV">
+            We focus on making meals with thebest and freshest ingredients, like humanely-raised beef that is ground fresh each day, organic chicken, and Rockey Family Dairy’s organic cream for our ice cream cones, sundaes and shakes.Ourcommitment to freshnessand quality means higher prices than you’d find at traditional fast-food burger chains. It also means food that tastes way better — because, well, it is.
+        </div>
+
+
+        <button onclick="yourFunction()">Where does your beef come from?</button>
+        <div id="yourDIV">
+            We source our humanely-raised, vegetarian-fed beef from local, family-owned ranches. We use an 85% to 15% protein to fat blend, a mixture of the lean protein and the marbling found on in a cut of steak for our ground beef. The mixture is ground daily, and thus, our burgers taste so amazing.
+        </div>
+
+
+
+
+    </div>
+
+
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myDIV");
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                }
+            }
+
+            function yourFunction() {
+                var y = document.getElementById("yourDIV");
+                if (y.style.display === "none") {
+                    y.style.display = "block";
+                } else {
+                    y.style.display = "none";
+                }
+            }
+
+
+        </script>
+
+
+
+</body>
+</html>
